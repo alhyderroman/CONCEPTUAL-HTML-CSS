@@ -1,0 +1,51 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin:0; padding:0;
+    font-family: 'Lora', serif;
+}
+.hero{
+    background-image: url('../images/cow.jpg');
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.hero h1{
+    color:aqua;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 40px;
+    letter-spacing: 20px;
+
+}
+.article, #CowType{
+    width:80%;
+    margin: 60px auto;
+    text-align: justify;
+    border-width: 15px;
+    border-color: rgb(0, 255, 42);
+    border-style: solid;
+    background-color: rgb(100, 4, 44);
+    padding: 40px;
+}
+.article h2{
+  text-align: center;
+  font-size: 48px;
+  border-width:5px;
+  border-color: rgb(0, 255, 42);
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding-bottom: 8px;
+
+}
+.article p{
+    padding-top: 10px;
+    font-size: 20px;
+}
